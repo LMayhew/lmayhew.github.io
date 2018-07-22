@@ -41,5 +41,5 @@ PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 
 
-#THEME = '../pelican-themes/svbtle'
+THEME = '../pelican-themes/svbtle'
 #THEME = '../pelican-themes/mnmlist'
