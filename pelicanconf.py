@@ -13,6 +13,16 @@ TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'
 
+# I added Menu Items
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (
+    ('Blog', '/category/posts.html'),
+    ('Repos', '/pages/repos.html'),
+    )
+
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
