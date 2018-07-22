@@ -16,6 +16,8 @@ DEFAULT_LANG = 'en'
 # I added Menu Items
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
+USE_FOLDER_AS_CATEGORY = True
+PAGE_PATHS = ['pages',]
 
 MENUITEMS = (
     ('Blog', '/category/posts.html'),
